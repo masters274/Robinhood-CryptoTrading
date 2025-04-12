@@ -1,0 +1,30 @@
+# PowerShell ignore file
+*.ps1~
+*.psd1~
+*.psm1~
+*.log
+*.tmp
+*.bak
+
+# Secrets or sensitive data
+secrets.json
+*.key
+*.pfx
+
+# VSCode settings
+.vscode/
+
+# Module output
+bin/
+output/
+publish/
+
+# GitHub Codespaces and test artifacts
+.env
+.env.*
+coverage/
+TestResults/
+
+# OS files
+.DS_Store
+Thumbs.db
