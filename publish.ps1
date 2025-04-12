@@ -1,4 +1,4 @@
-$modulePath = "$PSScriptRoot\core"
+$modulePath = "$PSScriptRoot\Robinhood-CryptoTrading"
 
 $manifest = Import-PowerShellDataFile -Path "$modulePath\*.psd1"
 
