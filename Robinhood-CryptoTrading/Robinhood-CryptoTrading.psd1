@@ -24,7 +24,8 @@
         'Get-RHCTradingPairs',
         'New-RHCOrder',
         'Stop-RHCOrder',
-        'Get-RHCOrder'
+        'Get-RHCOrder',
+        'Get-RHCCostBasisSummary'
     )
 
     CmdletsToExport    = @()
@@ -36,10 +37,11 @@
 
         PSData = @{
 
-            Tags         = 'Robinhood', 'RobinhoodCrypto', 'Crypto', 'Cryptocurrency', 'Trading', 'API', 'Finance', 'Investing', 'Investment'
-            LicenseUri   = 'https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE'
-            ProjectUri   = 'https://github.com/masters274/Robinhood-CryptoTrading'
-            ReleaseNotes = '
+            Tags                     = @('Robinhood', 'RobinhoodCrypto', 'Crypto', 'Cryptocurrency', 'Trading', 'API', 'Finance', 'Investing', 'Investment')
+            LicenseUri               = 'https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE'
+            ProjectUri               = 'https://github.com/masters274/Robinhood-CryptoTrading'
+            RequireLicenseAcceptance = $true
+            ReleaseNotes             = '
 Version 0.1
 - Day 1 release of Robinhood Crypto Trading module.'
         }

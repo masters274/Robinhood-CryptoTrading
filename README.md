@@ -52,7 +52,7 @@ Import-Module -Name 'Robinhood-CryptoTrading'
    Save-RHCCredentials -ApiKey "YOUR_API_KEY" -PrivateKeySeed "YOUR_PRIVATE_KEY_SEED"
    ```
 
-   > **Note:** The credentials are securely stored as encrypted environment variables, but are only accessible by the user account that created them and on the computer where they were saved. These credentials are not portable between computers or user accounts.
+   > **Note:** The credentials are securely stored as encrypted environment variables, but are only accessible by the user account that created them and on the computer where they were saved. These credentials are not portable between computers or user accounts. Saving your API key and Seed will allow you to run the functions without needing to pass the API key and Seed each time. If you do not want to save your API key and Seed, you can pass them in as a parameters to each function that requires it.
 
 3. **Remove Credentials (if needed):**
    You can remove stored API keys using:
