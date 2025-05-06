@@ -26,7 +26,7 @@ You can install this module from the PowerShell Gallery:
 
 ```powershell
 # Navigate to your project directory
-Install-Module -Name 'Robinhood-CryptoTrading' -Scope CurrentUser
+Install-Module -Name 'Robinhood-CryptoTrading' -Scope CurrentUser -AcceptLicense
 
 # Import the module
 Import-Module -Name 'Robinhood-CryptoTrading'
