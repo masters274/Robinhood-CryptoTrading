@@ -1,15 +1,6 @@
 # Robinhood-CryptoTrading
 
-<table width="100%">
-  <tr>
-    <td align="left">
-      <img src="images/rhc_icon.png" alt="Robinhood-CryptoTrading Icon" width="120" />
-    </td>
-    <td align="right" valign="top">
-      <a href="https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
-    </td>
-  </tr>
-</table>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE) <img src="images/rhc_icon.png" align="right" width="120" alt="Robinhood-CryptoTrading Icon"/><br /><br /><br />
 
 ## Overview
 
