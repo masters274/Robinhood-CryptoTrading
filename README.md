@@ -1,6 +1,15 @@
 # Robinhood-CryptoTrading
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE)
+<table width="100%">
+  <tr>
+    <td align="left">
+      <img src="images/rhc_icon.png" alt="Robinhood-CryptoTrading Icon" width="120" />
+    </td>
+    <td align="right" valign="top">
+      <a href="https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+    </td>
+  </tr>
+</table>
 
 ## Overview
 
@@ -137,3 +146,9 @@ New-RHCOrder -Side "sell" -Symbol "BTC-USD" -AssetQuantity "0.001"
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/masters274/Robinhood-CryptoTrading/blob/main/LICENSE) file for details.
+
+## Send-Coffee ☕
+
+Automators run on coffee, so if you've found this module useful, consider "Sending a coffee!"
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://www.paypal.me/ChrisMasters/5)
